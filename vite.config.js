@@ -3,4 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/wilsonlau_personal_page/',
 });
